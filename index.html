@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mini Demo Bank Operations</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-3xl text-center mt-10 font-thin">Welcome TO My <span class="font-semibold text-purple-800">
+                DEMO-BANK-OPERATIONS</span></h1>
+    </header>
+    <main>
+        <section class="bg-orange-200 w-3/4 mx-auto mt-8 p-8 rounded-lg ">
+            <h3 class="text-xl italic font-semibold mb-4">Please Login</h3>
+            <div action="">
+                <input id="user-email" class="border-2 block rounded-lg border-zinc-300 mb-4 w-3/4 px-4" type="email"
+                    placeholder="Enter Your any Email">
+                <input id="user-password" class="border-2 block rounded-lg border-zinc-300 mb-4 w-3/4 px-4"
+                    type="password" name="" placeholder="Enter Your any Password">
+                <button class="text-slate-200 rounded-lg font-semibold bg-orange-400 px-4 py-2 " type="submit"
+                    id="login-submit">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
